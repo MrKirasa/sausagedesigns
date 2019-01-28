@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="main.js"></script>
+	<title>PCG - Home</title>
+</head>
+<body>
+	<div id="rectangle">
+		<p id="title">PC Construction Guide</p>
+		<div class="bigbox" onclick="anim(this); trigger()">
+			<div class="boxclick"></div>
+			<div class="linetop"></div>
+			<div class="linemid"></div>
+			<div class="linebot"></div>
+		</div>
+	</div>
+	<div id="navbox" class="boxnav">
+		<a href="index.html">Home</a>
+		<a href="basics.html">Basics</a>
+		<a href="advanced.html">Advanced</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="cybersafety.html">Cybersafety</a>
+	</div>
+	<div class="block">
+		<div id="pic1" onclick="window.location.href = 'basics.html';">
+			<p>Basics</p>
+		</div>
+		<div id="pic2" onclick="window.location.href = 'advanced.html';">
+			<p>Advanced</p>
+		</div>
+		<div id="pic3" onclick="window.location.href = 'gallery.html';">
+			<p>Gallery</p>
+		</div>
+		<div id="pic4" onclick="window.location.href = 'cybersafety.html';">
+			<p>Cybersafety</p>
+		</div>
+	</div>
+</body>
+</html>
