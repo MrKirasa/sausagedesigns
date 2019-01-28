@@ -9,8 +9,8 @@
 
 <channel>
 	<title>SAUSAGE DESIGNS</title>
-	<atom:link href="/sausagedesigns/feed/" rel="self" type="application/rss+xml" />
-	<link>/sausagedesigns</link>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../index.html</link>
 	<description>Custom Sausage Fattener Skins</description>
 	<lastBuildDate>Mon, 28 Jan 2019 12:07:35 +0000</lastBuildDate>
 	<language>en-AU</language>
@@ -19,9 +19,9 @@
 	<generator>https://wordpress.org/?v=5.0.3</generator>
 
 <image>
-	<url>/sausagedesigns/wp-content/uploads/2019/01/cropped-16-32x32.png</url>
+	<url>./../wp-content/uploads/2019/01/cropped-16-32x32.png</url>
 	<title>SAUSAGE DESIGNS</title>
-	<link>/sausagedesigns</link>
+	<link>./../index.html</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
